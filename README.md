@@ -73,3 +73,14 @@ PHP version 7.0.15 or higher is required, with the following extensions installe
 
 ## Running CodeIgniter Tests
 Information on running CodeIgniter test suite can be found in the [README.md](tests/README.md) file in the tests directory.
+
+=================================================================================================================================
+
+## do following changes and directly run without CLI
+1) open public/index.php file and replace following line
+
+    $pathsPath =dirname(__DIR__).'/application/Config/Paths.php';
+    
+2) save as rewrite.php(copy all the content in index.php) file as index.php file in codeigntier root directory.
+
+3) copy .htacess file from /public folder and paste it on codeigniter root directory. that's it.
